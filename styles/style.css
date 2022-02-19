@@ -299,6 +299,15 @@ img.active {
     height: 50px;
 }
 
+/*----------------- Section Footer --------------------*/
+
+footer {
+    border-top: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
 
 /*------------ Media Queries ------------*/
 
