@@ -196,10 +196,77 @@ img.active {
 
 .choix {
     grid-area: 3 / 1 / 4 / 3;
+    background: #222;
+    color: #f1f1f1;
+    border: 1px solid #000;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
+
+.titre-choix {
+    font-size: 50px;
+    font-family: Playfair Display, 'Times New Roman', Times, serif;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.choix p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.go-gallerie {
+    font-size: 22px;
+    display: block;
+    margin: 20px 0 auto;
+    width: 300px;
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 5px;
+    background: #222;
+    color: #f1f1f1;
+}
+
+.go-gallerie:hover {
+    transition: all 0.2s ease-in-out;
+    background: #f1f1f1;
+    color: #222;
+} 
+
+.cont-medias {
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.media {
+    margin: 10px 0;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media img {
+    width: 25px;
+}
+
+
 
 /*----------------- Section Contact --------------------*/
 
 .contact {
     grid-area: 3 / 3 / 4 / 4;
+    background: #f6db51;
+    color: #000;
 }
